@@ -15,6 +15,9 @@ public class WomenPage extends LoadableComponent<WomenPage>{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	
+	//added new file
+	
 	public ProductPage clickJeansCatagory() {
 		SeleniumHelper.clickOnElement(jeansCatagory);
 		return new ProductPage(driver);
